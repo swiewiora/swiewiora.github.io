@@ -1,9 +1,9 @@
-title: Stack Problems
-description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django.
-disqus_shortname: stackproblems
+title: Sebastian Wiewiora
+description: GitHub Portfolio of Software Engineer Sebastian Wiewióra
+author: Sebastian Wiewióra
+github: https://github.com/swiewiora
+about: Full Stack, Mobile Apps, Scripting, Automation
+disqus_shortname: portfolio
 google_analytics: UA-XXXXXXXX-Y
 avatar_url: /static/img/avatar.jpg
 
@@ -16,16 +16,10 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
-    - icon: fa-twitter
-      link: "#"
     - icon: fa-linkedin
-      link: "#"
-    - icon: fa-stack-exchange
-      link: "#"
+      link: "https://www.linkedin.com/in/swiewiora/"
     - icon: fa-github
-      link: "https://github.com/agusmakmun"
+      link: "https://github.com/swiewiora"
 
 share:
   twitter_username: github.io
@@ -39,7 +33,7 @@ urls:
     - text: XML Feed
       url: /feed.xml
 
-url: "https://agusmakmun.github.io"
+url: "https://swiewiora.github.io"
 baseurl: ""
 paginate: 20
 per_page: 20
