@@ -1,42 +1,114 @@
 [
 	{
-		"slug": "cool-project",
-		"name": "Cool project 1",
+		"slug": "UiPath_Certification_Vendors",
+		"name": "Certification - Vendors",
+		"description": "UiPath RPA Developer Certification assignment",
+		"url": "https://github.com/swiewiora/UiPath_Certification_Vendors",
+		"date": "October 2018",
+		"tags": ["RPA"]
+	}
+	,{
+		"slug": "UiPath_Generate_Yearly_Report",
+		"name": "Generate Yearly Report",
+		"description": "UiPath RPA Developer Advanced Training assignment",
+		"url": "https://github.com/swiewiora/UiPath_Generate_Yearly_Report",
+		"date": "October 2018",
+		"tags": ["RPA"]
+	}
+	,{
+		"slug": "UiPath_Calculate_Client_Security_Hash",
+		"name": "Calculate Client Security Hash",
+		"description": "UiPath RPA Developer Advanced Training assignment",
+		"url": "https://github.com/swiewiora/UiPath_Calculate_Client_Security_Hash",
+		"date": "October 2018",
+		"tags": ["RPA"]
+	}
+	,{
+		"slug": "python-webshell",
+		"name": "Web Shell",
 		"image": "placeholder.jpg",
-		"url": "https://www.google.com",
-		"date": "Jan 2014",
-		"tags": ["Angular JS","API"]
-	},
-	{
-		"name": "Cool project 2",
-		"image": "placeholder.jpg",
-		"url": "#",
-		"date": "May 2014",
-		"tags": ["Python","Django"]
-	},
-	{
-		"name": "Cool project 3",
-		"image": "placeholder.jpg",
-		"url": "#",
-		"date": "June 2014",
-		"tags": ["HTML","JQuery","Django"]
-	},
-	{
-		"name": "Cool project 4",
-		"image": "placeholder.jpg",
-		"date": "Oct 2016",
-		"tags": ["Python","nodejs"]
-	},
-	{
-		"name": "Cool project 5",
-		"image": "placeholder.jpg",
-		"date": "Oct 2016",
-		"tags": ["Python","nodejs"]
-	},
-	{
-		"name": "Cool project 6",
-		"image": "placeholder.jpg",
-		"date": "Oct 2016",
-		"tags": ["Python","nodejs"]
+		"description": "Flask application which allows the user to execute arbitrary shell commands on the remote web server via browser.",
+		"url": "https://github.com/swiewiora/python-webshell",
+		"date": "Apr 2019",
+		"tags": ["Python"]
+	}
+	,{
+		"slug": "python-simple-nlp",
+		"name": "Simple NLP",
+		"description": "Python program which converts sequence of sentences in natural language and constant w into one or more character arrays of length w",
+		"url": "https://github.com/swiewiora/python-simple-nlp",
+		"date": "Apr 2019",
+		"tags": ["Python"]
+	}
+	,{
+		"slug": "parallels",
+		"name": "Parallels",
+		"description": "Examples of parallel programming in C and Java",
+		"url": "https://github.com/swiewiora/Parallels",
+		"date": "Jan 2017",
+		"tags": ["C","Java"]
+	}
+	,{
+		"slug": "WMLab",
+		"name": "WMLab",
+		"description": "BEng thesis: Design and implementation of a web application for storing and analysing laboratory test results",
+		"url": "https://github.com/swiewiora/WMLab",
+		"date": "Jan 2018",
+		"tags": ["PHP","JavaScript"]
+	}
+	,{
+		"slug": "WMLab-ionic",
+		"name": "WMLab ionic",
+		"description": "Mobile version of application to store and analyse laboratory tests results from testing machine",
+		"url": "https://github.com/swiewiora/WMLab-ionic",
+		"date": "June 2017",
+		"tags": ["Angular","Android"]
+	}
+	,{
+		"slug": "tts-notifier",
+		"name": "TTS Notifier",
+		"description": "Android application which translates notifications to voice using TTS feature. School project to learn programming in Android",
+		"url": "https://github.com/swiewiora/TTSNotifier",
+		"date": "Jan 2018",
+		"tags": ["Android"]
+	}
+	,{
+		"slug": "ledshow",
+		"name": "Led Show",
+		"description": "Command line programme which controlls TLC controller to control set of LEDs on the board. WiringPi library used. School project to learn programming in Soft RTOS for embedded systems.",
+		"url": "https://github.com/swiewiora/ledshow",
+		"date": "June 2017",
+		"tags": ["C"]
+	}
+	,{
+		"slug": "qnx",
+		"name": "QNX Funny",
+		"description": "Command line programme which moves a set of points in parallel on map. QNX Momentics IDE 4.7 used. School project to learn programming in Soft RTOS: QNX",
+		"url": "https://github.com/swiewiora/QNX-funny",
+		"date": "June 2017",
+		"tags": ["C"]
+	}
+	,{
+		"slug": "atlas",
+		"name": "Geographica Atlas",
+		"description": "Java application with GUI to display tables, queries and forms of MySQL relational database. School project to learn Databases basics and normalization.",
+		"url": "https://github.com/swiewiora/GeographicalAtlas",
+		"date": "Jan 2016",
+		"tags": ["Java"]
+	}
+	,{
+		"slug": "schedule",
+		"name": "University Schedule Generator",
+		"description": "A 3rd module of 5-module University Schedule Generator. School project to learn Software Engineering and teamwork",
+		"url": "https://github.com/swiewiora/UniSchedule-Generator",
+		"date": "Jan 2016",
+		"tags": ["Java"]
+	}
+	,{
+		"slug": "chat",
+		"name": "Chat - Client-Server",
+		"url": "https://github.com/swiewiora/JavaChat--Client-Server",
+		"date": "Jan 2016",
+		"tags": ["Java"]
 	}
 ]
