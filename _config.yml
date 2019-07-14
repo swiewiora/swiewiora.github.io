@@ -1,10 +1,10 @@
-title: Sebastian Wiewiora
-description: GitHub Portfolio of Software Engineer Sebastian Wiewióra
-author: Sebastian Wiewióra
+title: Sebastian Wiewióra - GitHub Portfolio
+description: Welcome to my portfolio. Here you can find my articles, repositories and code snippets.
+author: Sebastian Wiewiora
 github: https://github.com/swiewiora
 about: Software Engineer
-disqus_shortname: portfolio
-google_analytics: UA-XXXXXXXX-Y
+# disqus_shortname: portfolio
+# google_analytics: UA-XXXXXXXX-Y
 # avatar_url: /static/img/avatar.jpg
 
 enableTags: true
