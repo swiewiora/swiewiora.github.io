@@ -90,7 +90,7 @@
 	}
 	,{
 		"slug": "atlas",
-		"name": "Geographica Atlas",
+		"name": "Geographical Atlas",
 		"description": "Java application with GUI to display tables, queries and forms of MySQL relational database. School project to learn Databases basics and normalization.",
 		"url": "https://github.com/swiewiora/GeographicalAtlas",
 		"date": "Jan 2016",
