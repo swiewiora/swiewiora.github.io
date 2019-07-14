@@ -2,10 +2,10 @@ title: Sebastian Wiewiora
 description: GitHub Portfolio of Software Engineer Sebastian Wiewióra
 author: Sebastian Wiewióra
 github: https://github.com/swiewiora
-about: Full Stack, Mobile Apps, Scripting, Automation
+about: Software Engineer
 disqus_shortname: portfolio
 google_analytics: UA-XXXXXXXX-Y
-avatar_url: /static/img/avatar.jpg
+# avatar_url: /static/img/avatar.jpg
 
 enableTags: true
 tagarray: []
@@ -21,17 +21,18 @@ social:
     - icon: fa-github
       link: "https://github.com/swiewiora"
 
-share:
-  twitter_username: github.io
-  fb_appid: 1749788565247320
+# share:
+#   twitter_username: github.io
+#   fb_appid: 1749788565247320
 
 urls:
-    - text: About Me
-      url: /about/
-    - text: My Projects
-      url: /projects/
-    - text: XML Feed
-      url: /feed.xml
+    - text: Articles
+      url: /category/all
+    - text: Projects
+      url: /projects
+    - text: Gists
+      url: https://gist.github.com/swiewiora
+      
 
 url: "https://swiewiora.github.io"
 baseurl: ""
