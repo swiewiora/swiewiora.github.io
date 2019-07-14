@@ -30,7 +30,7 @@ urls:
       url: /category/all
     - text: Projects
       url: /projects
-    - text: Gists
+    - text: Gists <i class="fa fa-external-link"></i>
       url: https://gist.github.com/swiewiora
       
 
