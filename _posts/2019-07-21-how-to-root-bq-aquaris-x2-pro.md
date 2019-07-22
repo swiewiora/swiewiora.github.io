@@ -16,11 +16,13 @@ Windows 10 x64, Android SDK Platform Tools, ConEmu.
 
 > Unlocking bootloader will wipe all user data.
 
-Unfortunately there is no one-click solution, especially for non-rooted devices. Configuration of the whole OS, settings and apps can take a lot of time. Make sure you will backup everything and use more than 1 way of making backup in case of problems. Reserve some time or be ready that your phone will not be fully functional for some time until you fully reconfigure it after wipe.
+Unfortunately there is no one-click solution, especially for non-rooted devices. If your phone doesn't support TWRP, you're out of luck, there's no more reliable solution than this one. I tried ADB backup but it didn't work well for me. Make sure to create backup of necessary data in many ways in case one will not work.
 
-https://www.xda-developers.com/how-to-backup-android/  
+https://www.xda-developers.com/how-to-backup-android/
 https://www.technobuzz.net/backup-android-apps-data-to-pc/
 
+### Android Wear
+Every time you wipe your phone you need to wipe your watch too in order to re-pair it with the same device. There's a workaround of [How to Pair Android Wear Watch to New/Same Phone without Factory Resetting](https://www.xda-developers.com/pair-android-wear-without-factory-reset).
 
 ## 2. Patch boot image
 
