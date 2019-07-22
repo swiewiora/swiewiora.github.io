@@ -18,7 +18,7 @@ Windows 10 x64, Android SDK Platform Tools, ConEmu.
 
 Unfortunately there is no one-click solution, especially for non-rooted devices. If your phone doesn't support TWRP, you're out of luck, there's no more reliable solution than this one. I tried ADB backup but it didn't work well for me. Make sure to create backup of necessary data in many ways in case one will not work.
 
-https://www.xda-developers.com/how-to-backup-android/
+https://www.xda-developers.com/how-to-backup-android/  
 https://www.technobuzz.net/backup-android-apps-data-to-pc/
 
 ### Android Wear
