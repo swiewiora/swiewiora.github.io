@@ -23,7 +23,20 @@ https://www.technobuzz.net/backup-android-apps-data-to-pc/
 **https://forum.xda-developers.com/android/help/adb-fastboot-commands-bootloader-kernel-t3597181**
 
 ### Android Wear
-Every time you wipe your phone you need to wipe your watch too in order to re-pair it with the same device. There's a workaround of [How to Pair Android Wear Watch to New/Same Phone without Factory Resetting](https://www.xda-developers.com/pair-android-wear-without-factory-reset).
+Every time you wipe your phone you need to wipe your watch too in order to re-pair it with the same device. There's a workaround of [How to Pair Android Wear Watch to New/Same Phone without Factory Resetting](https://www.xda-developers.com/pair-android-wear-without-factory-reset):
+1. Disable bluetooth on PC and phone paired with watch.
+2. Connect watch to Wifi
+3. Enable developer settings and debugging over WiFi
+4. Execute the following commands (manually type them to avoid errors in shell)
+```
+adb connect <IP>:<port>
+adb devices
+adb shell "pm clear com.google.android.gms && reboot"
+[device will reboot]
+adb shell "am start -a android.bluetooth.adapter.action.REQUEST_DISCOVERABLE"
+```
+> If there are problems with connecting to ADB over WiFi check if you have WiFi debugging enabled in ADB on the PC.
+5. Open Wear OS app and add the watch from there.
 
 ## 2. Create patched boot image
 
@@ -40,14 +53,14 @@ Every time you wipe your phone you need to wipe your watch too in order to re-pa
 adb reboot bootloader
 fastboot devices
 fastboot flashing unlock
-<<optional>> fastboot flashing unlock critical
-fastboot flash boot <<path to boot image>>.img
+[optional] fastboot flashing unlock critical
+fastboot flash boot <path to boot image>.img
 fastboot reboot
 ```
 
 > Do not relock device. relock will wipe it again and make impossible applying OTA updates in the future.
 
-> Unlocking [critical sections](https://source.android.com/devices/bootloader/unlock-trusty) is not needed for root but it may be necessary to unlock them later for flashing custom ROM, recovery or manully installing update.
+> Unlocking [critical sections](https://source.android.com/devices/bootloader/unlock-trusty) is not needed for root but it may be necessary to unlock them later for flashing custom ROM, recovery or manully installing update. Every flashing lock / unlock will trigger wipe.
 
 ## 3. Restart the phone and check if you have root
 
