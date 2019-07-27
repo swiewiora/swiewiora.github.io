@@ -62,8 +62,23 @@ fastboot reboot
 - Make sure you checked “Preserve force encryption” and “preserve AVB 2.0/dm-verity”.
 - Click on Install and select Direct Install (Recommended)
 - If you use Google Pay, enable Magisk Hide and use it against GPay and every banking app on your device. Also enable `Hide Magisk` setting.
-
 - **Enable Developer Settings again and disable setting `Automatic system updates`** This is very important, otherwise phone may get automatically updaed and the root will be gone.
+
+### [Enable Google Pay to work with Magisk](https://forum.xda-developers.com/apps/magisk/magisk-google-pay-gms-17-1-22-pie-t3929950)
+0. Download a SQL database editor and terminal emulator (ie terminus). 
+1. Force close Google Pay. 
+2. Open `/data/data/com.google.android.gms/databases/dg.db` in SQL editor
+3. Change any value that lists "attest" in the name (first column) to 0 in the third column. Mine was showing a value of 10 in the third column for each of these values. (Column c for sqlite database editor I used)
+4. Execute the following commands in terminal
+```
+su
+cd /data/data/com.google.android.gms/databases
+chmod 440 dg.db
+```
+This makes dg.db read only (for owner and group, and no access for world.)
+5. Reboot
+
+> When gms is updated, it may be necessary to go back to steps 10 and 11 and chmod 660 dg.db to allow new keys to be written to the database, and then go back and redo all these steps to reset the attestation values back to 0.
 
 ## 5. Applying OTA updates manually
 
