@@ -1,5 +1,13 @@
 [
 	{
+		"slug": "hassio-config",
+		"name": "Home Assistant configuration",
+		"description": "Configuration files for my personal Home Automation system, Home Assistant, running on Rspberry Pi 3 and deCONZ",
+		"url": "https://github.com/swiewiora/hassio-config",
+		"date": "August 2019",
+		"tags": ["home_automation"]
+	}
+	,{
 		"slug": "UiPath_Certification_Vendors",
 		"name": "Certification - Vendors",
 		"description": "UiPath RPA Developer Certification assignment",
