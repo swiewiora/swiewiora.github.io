@@ -5,7 +5,7 @@
 		"description": "Configuration files for my personal Home Automation system, Home Assistant, running on Rspberry Pi 3 and deCONZ",
 		"url": "https://github.com/swiewiora/hassio-config",
 		"date": "August 2019",
-		"tags": ["home_automation"]
+		"tags": ["Hass.io"]
 	}
 	,{
 		"slug": "UiPath_Certification_Vendors",
